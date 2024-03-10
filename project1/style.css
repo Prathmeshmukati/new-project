@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.parents{
+    display: flex;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: antiquewhite; */
+    height: 100px;
+    width: 100%;
+    padding: 0px 30px;
+}
+.nav1,.nav3{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 3px;
+
+
+}
+
+.nav h3{
+ font-size: 17px;
+ font-weight: 500;
+ border:1.5px solid black;
+ padding: 2px 8px;
+ border-radius: 50px;
+ display: flex;
+}
+.nav i{
+    font-size: 16px;
+    font-weight: 500;
+    border:1.5px solid black;
+    border-radius: 50px;
+    padding: 2px 8px;
+   }
+
+.nav h1{
+    font-weight: 500;
+    font-size: 24px;
+}
+.nav #dd{
+    color: wheat;
+    background-color: orangered;
+    border: none;
+}
+#kk{
+    width: 100%;
+    font-weight: 400;
+    font-size: 180px;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+img{
+    height:400px ;
+    width:300px ;
+    border-radius: 20px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+#img2{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img5{
+    transform: translate(-50%,-50%) rotate(-5deg);
+}
+.gg{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+#ll{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    font-size: 50px;
+    font-weight: 400;
+
+
+}
+.lof{
+      display: flex;
+      position: absolute;
+      bottom: 5%;
+      right: 5%;
+      gap: 5px;
+      font-size: 25px;
+}
+.e{
+    position: absolute;
+    bottom: 2%;
+    right: 3%;
+   
+}
